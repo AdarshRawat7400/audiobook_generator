@@ -8,3 +8,7 @@ __pycache__/
 
 # Output artifacts
 output/
+
+# Input archives
+*.zip
+*.rar

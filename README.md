@@ -13,7 +13,9 @@ A fully automated Python tool to generate an audiobook from a ZIP file of Hindi 
 ## Setup
 1. Install Python 3.10+
 2. Install dependencies: `pip install -r requirements.txt`
-3. Copy `.env.example` to `.env` and add your Gemini API Key.
+3. Copy `.env.example` to `.env` and configure credentials:
+   - **Option A (Recommended — uses GCP credits):** Set `GCP_PROJECT_ID` and run `gcloud auth application-default login`
+   - **Option B (AI Studio):** Set `GEMINI_API_KEY` from [Google AI Studio](https://aistudio.google.com/)
 4. Place your ZIP file in the root directory (default expects `input.zip`).
 
 ## Usage (Windows)
@@ -34,7 +36,9 @@ python main.py --dry-run --zip x.zip  # Combine flags
 
 | Variable | Default | Description |
 |---|---|---|
-| `GEMINI_API_KEY` | *(required)* | Your Google AI Studio API key |
+| `GCP_PROJECT_ID` | *(optional)* | GCP project ID for Vertex AI (uses GCP credits) |
+| `GCP_LOCATION` | `us-central1` | GCP region for Vertex AI |
+| `GEMINI_API_KEY` | *(optional)* | Google AI Studio API key (fallback if no GCP project) |
 | `GEMINI_TEXT_MODEL` | `gemini-3.5-flash` | Model for explainer text generation |
 | `GEMINI_AUDIO_MODEL` | `gemini-3.5-flash` | Model for audio narration |
 | `API_CALL_DELAY` | `1` | Seconds to wait between API calls |

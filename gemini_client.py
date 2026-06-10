@@ -16,11 +16,26 @@ import config
 
 load_dotenv()
 
+# ---------------------------------------------------------------------------
+# Client initialization: Vertex AI (GCP credits) or AI Studio (API key)
+# ---------------------------------------------------------------------------
+gcp_project = os.getenv("GCP_PROJECT_ID")
+gcp_location = os.getenv("GCP_LOCATION", "us-central1")
 api_key = os.getenv("GEMINI_API_KEY")
-if not api_key:
-    raise ValueError("GEMINI_API_KEY not found in .env file.")
 
-client = genai.Client(api_key=api_key)
+if gcp_project:
+    # Use Vertex AI — bills to GCP project (uses GCP credits)
+    client = genai.Client(vertexai=True, project=gcp_project, location=gcp_location)
+    print(f"✅ Using Vertex AI (project={gcp_project}, location={gcp_location})")
+elif api_key:
+    # Fallback to AI Studio — uses API key billing
+    client = genai.Client(api_key=api_key)
+    print("✅ Using Google AI Studio (API key)")
+else:
+    raise ValueError(
+        "No credentials found. Set either GCP_PROJECT_ID (for Vertex AI / GCP credits) "
+        "or GEMINI_API_KEY (for AI Studio) in your .env file."
+    )
 
 # ---------------------------------------------------------------------------
 # Logging: dual output — file + console
