@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import re
 import sys
 import logging
@@ -163,8 +164,88 @@ def generate_text(prompt: str, model: str) -> str:
     return response.text
 
 # ---------------------------------------------------------------------------
-# Audio generation
+# Audio generation with Chunking
 # ---------------------------------------------------------------------------
+def split_text_for_tts(text: str, max_chars: int = 800) -> list[str]:
+    """Splits text into chunks of maximum max_chars while keeping sentences/paragraphs intact."""
+    # First, split by paragraphs/double newlines
+    paragraphs = re.split(r'\n\s*\n', text)
+    chunks = []
+    
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            continue
+            
+        if len(para) <= max_chars:
+            chunks.append(para)
+        else:
+            # Split by sentence boundaries (।, ., ?, !)
+            sentences = re.split(r'([।\.!\?\n])', para)
+            current_chunk = ""
+            i = 0
+            while i < len(sentences):
+                sentence = sentences[i]
+                delimiter = sentences[i+1] if i + 1 < len(sentences) else ""
+                full_sentence = (sentence + delimiter).strip()
+                i += 2
+                
+                if not full_sentence:
+                    continue
+                    
+                if len(current_chunk) + len(full_sentence) + 1 <= max_chars:
+                    if current_chunk:
+                        current_chunk += " " + full_sentence
+                    else:
+                        current_chunk = full_sentence
+                else:
+                    if current_chunk:
+                        chunks.append(current_chunk)
+                    
+                    if len(full_sentence) > max_chars:
+                        # Split by clauses/commas
+                        sub_sentences = re.split(r'([,，;])', full_sentence)
+                        j = 0
+                        sub_chunk = ""
+                        while j < len(sub_sentences):
+                            sub_s = sub_sentences[j]
+                            sub_delim = sub_sentences[j+1] if j + 1 < len(sub_sentences) else ""
+                            full_sub = (sub_s + sub_delim).strip()
+                            j += 2
+                            if not full_sub:
+                                continue
+                            if len(sub_chunk) + len(full_sub) + 1 <= max_chars:
+                                if sub_chunk:
+                                    sub_chunk += " " + full_sub
+                                else:
+                                    sub_chunk = full_sub
+                            else:
+                                if sub_chunk:
+                                    chunks.append(sub_chunk)
+                                if len(full_sub) > max_chars:
+                                    # Fallback: force split by characters
+                                    for k in range(0, len(full_sub), max_chars):
+                                        chunks.append(full_sub[k:k+max_chars])
+                                    sub_chunk = ""
+                                else:
+                                    sub_chunk = full_sub
+                        if sub_chunk:
+                            current_chunk = sub_chunk
+                    else:
+                        current_chunk = full_sentence
+            if current_chunk:
+                chunks.append(current_chunk)
+                
+    # Filter out empty chunks or chunks that only contain punctuation/spaces
+    valid_chunks = []
+    for c in chunks:
+        c = c.strip()
+        # Ensure it contains at least one letter or number (filters out standalone punctuation like "." or "-")
+        if c and re.search(r'[^\W_]', c):
+            valid_chunks.append(c)
+    return valid_chunks
+
+
 @retry(
     stop=stop_after_attempt(config.MAX_RETRIES_AUDIO),
     wait=wait_exponential(multiplier=2, min=2, max=config.RETRY_MAX_WAIT),
@@ -172,32 +253,50 @@ def generate_text(prompt: str, model: str) -> str:
     before_sleep=_wait_for_rate_limit,
     reraise=True,
 )
-def generate_audio(text: str, voice_name: str, model: str, output_path: str):
-    """Generate audio narration and save as WAV file."""
+def _generate_audio_chunk(text: str, voice_name: str, model: str, output_path: str,
+                         system_instruction: str | None = None):
+    """Generate audio narration for a single text chunk and save as WAV file."""
     time.sleep(config.API_CALL_DELAY)
     _track_call(model)
-    logger.debug(f"Calling {model} for audio generation (voice={voice_name})...")
+    logger.debug(f"Calling {model} for audio chunk generation (voice={voice_name})...")
 
-    system_instruction = (
-        "You are a professional Indian literary narrator. "
-        "Your ONLY task is to read the provided text EXACTLY as written. "
-        "Do NOT summarize, explain, add greetings, or skip any content. "
-        "Read it warmly, clearly, and with dignity."
-    )
+    if system_instruction is None:
+        system_instruction = config.NARRATION_SYSTEM_INSTRUCTION
 
-    response = client.models.generate_content(
-        model=model,
-        contents=text,
-        config=types.GenerateContentConfig(
-            system_instruction=system_instruction,
-            response_modalities=["AUDIO"],
-            speech_config=types.SpeechConfig(
-                voice_config=types.VoiceConfig(
-                    prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=voice_name)
+    # Dedicated TTS models (e.g. gemini-2.5-flash-tts) do NOT support
+    # system_instruction — embed the style instruction in the content instead.
+    is_tts_model = "tts" in model.lower()
+
+    if is_tts_model:
+        # Prepend style instruction to the text content
+        styled_content = f"{system_instruction.strip()}\n\n---\n\nText to read:\n{text}"
+        response = client.models.generate_content(
+            model=model,
+            contents=styled_content,
+            config=types.GenerateContentConfig(
+                response_modalities=["AUDIO"],
+                speech_config=types.SpeechConfig(
+                    voice_config=types.VoiceConfig(
+                        prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=voice_name)
+                    )
                 )
             )
         )
-    )
+    else:
+        # Standard Gemini models support system_instruction
+        response = client.models.generate_content(
+            model=model,
+            contents=text,
+            config=types.GenerateContentConfig(
+                system_instruction=system_instruction,
+                response_modalities=["AUDIO"],
+                speech_config=types.SpeechConfig(
+                    voice_config=types.VoiceConfig(
+                        prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=voice_name)
+                    )
+                )
+            )
+        )
 
     # --- Validate the response before writing ---
     if not response.candidates:
@@ -237,4 +336,71 @@ def generate_audio(text: str, voice_name: str, model: str, output_path: str):
         f.writeframes(audio_data)
 
     file_size_kb = os.path.getsize(output_path) / 1024
-    logger.info(f"Audio saved: {output_path} ({file_size_kb:.1f} KB)")
+    logger.debug(f"Chunk audio saved: {output_path} ({file_size_kb:.1f} KB)")
+
+
+def generate_audio(text: str, voice_name: str, model: str, output_path: str,
+                   system_instruction: str | None = None):
+    """Generate audio narration, chunking if the text is too long, and save as WAV file.
+    
+    Args:
+        text: The text to narrate.
+        voice_name: Gemini voice preset name.
+        model: Model identifier.
+        output_path: Where to save the WAV file.
+        system_instruction: Custom system instruction for audio style.
+    """
+    # Check if we need to chunk the text
+    if len(text) <= config.MAX_TTS_CHARS:
+        _generate_audio_chunk(text, voice_name, model, output_path, system_instruction)
+        file_size_kb = os.path.getsize(output_path) / 1024
+        logger.info(f"Audio saved: {output_path} ({file_size_kb:.1f} KB)")
+        return
+
+    # Chunking required
+    chunks = split_text_for_tts(text, config.MAX_TTS_CHARS)
+    logger.info(f"Generating audio in {len(chunks)} chunks for: {output_path}")
+
+    chunk_files = []
+    try:
+        for idx, chunk in enumerate(chunks):
+            # Unique temp file for each chunk in the same directory as output_path
+            chunk_file = Path(output_path).with_suffix(f".chunk_{idx}.wav")
+            chunk_files.append(str(chunk_file))
+            
+            logger.debug(f"Generating chunk {idx+1}/{len(chunks)} ({len(chunk)} chars) for {output_path}")
+            _generate_audio_chunk(chunk, voice_name, model, str(chunk_file), system_instruction)
+
+        # Concatenate all chunk files
+        silence_duration = config.TTS_CHUNK_SILENCE_SECONDS
+        silence_bytes = b'\x00' * int(24000 * 2 * silence_duration)
+
+        data = []
+        params = None
+
+        for path in chunk_files:
+            with wave.open(path, 'rb') as w:
+                w_params = w.getparams()
+                if params is None:
+                    params = w_params
+                data.append(w.readframes(w.getnframes()))
+
+        if params is not None:
+            with wave.open(output_path, 'wb') as w_out:
+                w_out.setparams(params)
+                for idx, frames in enumerate(data):
+                    if idx > 0 and silence_duration > 0:
+                        w_out.writeframes(silence_bytes)
+                    w_out.writeframes(frames)
+
+        file_size_kb = os.path.getsize(output_path) / 1024
+        logger.info(f"Audio saved (concatenated {len(chunks)} chunks): {output_path} ({file_size_kb:.1f} KB)")
+
+    finally:
+        # Cleanup chunk files
+        for path in chunk_files:
+            try:
+                if os.path.exists(path):
+                    os.remove(path)
+            except Exception as e:
+                logger.warning(f"Failed to remove temp chunk file {path}: {e}")

@@ -15,7 +15,8 @@ def generate_explainer_content(title: str, text: str) -> str:
     prompt = f"""
 Please act as an experienced, respected Hindi literature professor. 
 Create an educational explanation for the following poem in simple, clear Hindi. 
-Do not include any English words. Format the explanation as a continuous, flowing speech:
+Do not include any English words. Format the explanation as a continuous, flowing speech.
+Address your audience as listeners ('shrotao' / 'श्रोताओं') and NEVER as students ('vidhyartiyo' / 'विद्यार्थियों'):
 1. Poem Introduction
 2. Simple Meaning
 3. Important Words
@@ -66,12 +67,14 @@ def generate_explainer_audio(file_id: int, title: str, original_text: str) -> tu
 
     if need_male:
         logging.info(f"[TTS] Generating Male Explainer Audio: {title}")
-        generate_audio(explainer_text, config.MALE_VOICE, config.AUDIO_MODEL, str(male_exp_path))
+        generate_audio(explainer_text, config.MALE_VOICE, config.AUDIO_MODEL, str(male_exp_path),
+                        system_instruction=config.EXPLAINER_SYSTEM_INSTRUCTION)
     
     female_audio_rel = ""
     if need_female:
         logging.info(f"[TTS] Generating Female Explainer Audio: {title}")
-        generate_audio(explainer_text, config.FEMALE_VOICE, config.AUDIO_MODEL, str(female_exp_path))
+        generate_audio(explainer_text, config.FEMALE_VOICE, config.AUDIO_MODEL, str(female_exp_path),
+                        system_instruction=config.EXPLAINER_SYSTEM_INSTRUCTION)
         female_audio_rel = str(female_exp_path.relative_to(config.OUTPUT_DIR))
     elif config.ENABLE_FEMALE_VOICE:
         female_audio_rel = str(female_exp_path.relative_to(config.OUTPUT_DIR))

@@ -141,6 +141,7 @@ def main():
     print(f"  Audio Model: {config.AUDIO_MODEL}")
     print(f"  Workers:     {config.MAX_CONCURRENT_WORKERS}")
     print(f"  API Delay:   {config.API_CALL_DELAY}s")
+    print(f"  Audio Style: All India Radio (Akashvani)")
     if args.dry_run:
         print("  Mode:        DRY RUN (no API calls)")
     print("=" * 60 + "\n")
