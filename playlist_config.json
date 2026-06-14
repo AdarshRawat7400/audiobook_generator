@@ -1,0 +1,555 @@
+{
+  "book_title": "Nadiya Teer Kachare Mera Gaon Re",
+  "chapters": [
+    {
+      "id": "001",
+      "title": "001_समर्पण",
+      "type": "chapter",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1Tha1gV5vc8CDBwab8AvQOdiLLuPml7JQ",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1nUEBVAoZvXsOaSdaXGxwGErJNUfZ2fKs",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1-X14_OOmCQqne_Pft3Hv4BE2725MPA3G"
+    },
+    {
+      "id": "002",
+      "title": "002_मंगल कामना",
+      "type": "chapter",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1mV45HmpP4dAu7adJ1lvtRuTR3-mOLq73",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1cyGwrKlR2zm41Kz2jrS0kPmm4tIqrHw7",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1Zy6lN6sTID-qt0s-22J1_QdFyXtZV0R5"
+    },
+    {
+      "id": "003",
+      "title": "003_आमुख",
+      "type": "chapter",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1LVZebs9r6Es2b4wxg5ebyvy5ARs_B2mY",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1MtEIWFC01CiLFuDOTZkoX9KdtFwvLeMv",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1ul9btLcRHQT0Ok9KwMeuXp9l_m3ecTnt"
+    },
+    {
+      "id": "004",
+      "title": "004_दो-शब्द",
+      "type": "chapter",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=17g_1cNDNL8Em7hUw2uv70kzLkaW5FNl0",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1pL2neXzaJbef7LcmZ1bMLatNoCm6zady",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=12QVr7CiYm8NV_5ZdFC3VNJRXufdVjbBn"
+    },
+    {
+      "id": "005",
+      "title": "005_सरस्वती-वंदना",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1uv0LDFrK-mOAaXvNMdFaU9GpNjtPACB3",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1jM8D_tKSkjdQWeNIu6fi1VMx8yDjftHZ",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1N-YbZkBLpHKwEApkKSYNZY97lX0TfqSR",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1eyZ_COCm2a2f5RCePjmZgENITZ7uk4KB",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=14n2BW3HXvHK7qgFTwYOfj0ylMa7vdwpJ"
+    },
+    {
+      "id": "006",
+      "title": "006_श्रीराम महिमा",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1x9d6INl5gFQEXdJs5JxOSjc6Uiqnnv1Y",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1hxfLCLF5XXTsakxHDxfVI8_W2eQO0H3t",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1doWLO_P_vESSnp28fAGlfLnn-Vvaf28T",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1qq_-XIeGwYERiVet4jDxvIFYcC-EW_vw",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1GlXlUXMR5jJ4xgRxUJyokttKTbMFFrjB"
+    },
+    {
+      "id": "007",
+      "title": "007_दया करौ रघुवीर",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1GTNS-FZuTxhU7a-8F6uyHNoyt6uARnfe",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1RQMN0CYXvPYcfmUS-2ZcJkEoY6ICsv7i",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=16plHfNWW_YJKlZFsbQ96ZrmtCKlPIXaR",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1UKVcPh3XcVlYscJWST7K8QLkjil2xoSv",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1hk4o3uUFgE1bwInIEQqo7BXWpUvDJ5qr"
+    },
+    {
+      "id": "008",
+      "title": "008_प्रभु की प्रभुताई",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=17ZGen3SQNYBG8vlFQD2XQivZli6sx-Dm",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1btcZo4tW6PUaYM-RzgTRpPqKUZwB2jWM",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1G2mDPpTEZk9ZYKU6NcH9EJXXLe0wMWkr",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1DqvjAQeIc7aqMXzfbCD98FCjaCTtZjhb",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=19HXoYZbV87r5pkGf9ElycPXlmAGk1JxY"
+    },
+    {
+      "id": "009",
+      "title": "009_अवध के बिहारी",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1HCEdW9jemJy9ef725Eon8MLCRBiLmcwX",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1aeDEonxlpnfdnrzd9JfcQbHJCkc9VCuc",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1rRdIG7BVncgJ4Jl_UZD4LYXpXLnDLpZl",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1cIRhyuPxtXYbX26XLflReIQXxx0h0gE0",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1spl2fP9K6aeD30cBExp_nbzanwIZ4fE4"
+    },
+    {
+      "id": "010",
+      "title": "010_कारणरहित कृपाल",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=111m23D3xGbbRc32EzF2SsI2bF68DWImC",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=13Rdg6QPBR6d-LSrehaddtanjegYDIF3g",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=18Ik06xJOiIzJhI-eGPNKt7aqwsYDXQ2W",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1-hI9Y0uRwJt6019GLwB13G8IkN6inHul",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1Sjg-BUy-pKGKjDwP7xVHKxyDlVmrJ3ZY"
+    },
+    {
+      "id": "011",
+      "title": "011_मुरलिया बारे",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1WdqbS4zieQs4cmdGdXgjtzVM3_jp_1Is",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=19920JKP2CZYKyzgh08ipgzrOyw4F5JH_",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1IT5dk_gkeRQuRp7D9emRxwUJH3M3X5dn",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1fWbz9teEIvFCOwuzL1MRYH-glm-BLDrr",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1jvUsHwmwn_tzTNB7aamcLV13ViqU4aAt"
+    },
+    {
+      "id": "012",
+      "title": "012_श्रीजगदीशनारायणस्वामी",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1h0l6ibEX677CvHr6J79KwXjgyeFRRniV",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=19uHk4aLP6rZEaqlXUtK8Q9zaQG-p_GD7",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1xKFuXgEDCJU6oA6u5wZYgeTe0GpZhTFI",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1OMGvHYT66h8RzWd1jeu1laXTmv0ahBEN",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1d3-b_ptMYJRjv_tex2tkLKHc1IQDaGrX"
+    },
+    {
+      "id": "013",
+      "title": "013_हनुमत प्यारे",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1a0MnpSMGa4DYWN_NWO9fMuaQeUokozN2",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1hawh99At0E_ghDfPGPRXx-gOr3aOW6rv",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1f_kSxf2Af5kqbvm2X_-wB8qqNl42ijLH",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1gJ1hawgHGI_VXRP8f6R_MHGGJP3kgouK",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1zUy_Z8R958P0dZbbllaUXZ5anWUfE77T"
+    },
+    {
+      "id": "014",
+      "title": "014_गुरू ब्रह्मा",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1VmEMQskxFnv9hPftK_ilyEehSgcX3N1G",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1sWsTGYK7kLfSEMPZPC3XXtG_aw4f6mbq",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1NDeVgJ-HEin99DgXX5_WU0P7llQLt0xz",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1CosryRMpKHsU0YkYxEYHPWGtJJ571VQs",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=13n6RM7rK-bc9ihBJsIj6QfNzj0xlMZHq"
+    },
+    {
+      "id": "015",
+      "title": "015_तुलसीदास",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1O3vgSWzQifNBbFyU_8fwX1gFsbjSYjeN",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=11r0x9oLZFcjiX0tP0wNkR8oFWGpsoCNh",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1dMLRtWmUGRJCRFKgG3omQ1ffYBwig8Nd",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1KVczf14mXCuzbjlkjUc2QhRvLpQNL5am",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1eyfqsjL9k9S3klJ2vudRdiukjTcp-cUZ"
+    },
+    {
+      "id": "016",
+      "title": "016_सन सत्तावन - समर आजादी का",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1fEMS6261vaq9TSwBolCJgJHSQx0hau7L",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1_j_4vIP9zI9-YmlZxFuB2e-cOSjnaO6C",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=16S_Ku4KMkEvsPt1JqF59mXjmsLpB9lvz",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1d-g4pIglHxMNLWCXT_kotJ69T5GEeZgS",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1C3EYW9pfrmOWu1edy0mO3z36SjgMxvfN"
+    },
+    {
+      "id": "017",
+      "title": "017_नये तीर्थ के पूज्य देवता (पं. नेहरू)",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1a1BlADzPgD2SVhvTC1yYriHxv1gHaQCt",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=16MX8IHw8gVEgKbemycxAsk5kD3LYwAa1",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1PfYckL5rv-kux58r2VFSMjhshHmdagLT",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1-_yiY00OCntZqlWL_8Ot1Vnti8q6b35e",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1AoQXr3Kr6I0onZM51N7OKl0-i1P0uc3p"
+    },
+    {
+      "id": "018",
+      "title": "018_संगीत-सृजन",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1ieEX5nhM5HyX18elBiVET0z6MTB8KR5Z",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=14qzJZOJOxvUPKf_Zl8rFr7F5-pocMTio",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=14NavbJKAiXqzf3j1-t5U2QyzRZ6oMSp1",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=18IEMPU7oFpnHqceoli1ZY7RHe87kdF5E",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1_1B4w9jZCX5wDhFYoQWdN9bkxazgO7aR"
+    },
+    {
+      "id": "019",
+      "title": "019_लौह पुरुष सरदार पटेल",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1IKy_k9o8prmSiEcSuKEWrqvi25fG1ihw",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1iqsvZD2CKEbhi-kxIaXYt_HYLUsF6d3s",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1MR58KhAEhUYnJCSSzEva9cbCdGwmKNj7",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1ETpUEjq7ke5lisF14ba2VgLmiDD4uaa7",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1DxHRw3WvQfQD2VYd6kfxEIs_5W9iL_bR"
+    },
+    {
+      "id": "020",
+      "title": "020_राजगढ़",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=18aSXRoJrC1RH2nVHdQhQ6T1vH_zSTkJp",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1xIV8DXM3MHx7CYbjoTzIxsMcQ5zBLS5Z",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=162Bu_MgGJ7ezB-WlA_j3K3CAStkMU76G",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1nqsEGWaF3FkgAe9sdGZI91HhEirJx_F-",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=139TIDbsU9AnaLFDZ3W5QSm3RxcnK-gBR"
+    },
+    {
+      "id": "021",
+      "title": "021_छतरपुर",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=178RIIy1OfoSCjevwHuokWgPBwluAmwnd",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1-Pr9kbjWX_3svSofKeByOlQ53LYM9MZB",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=18l1V38KLSbFQ-LQ1eOJ3Oh4UfHzJJ-hG",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1FrolRRtjNFO2sHizNB-VAvvAU5qfuqb-",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1Euav35GaCivbBRhnikcwwL64A88jaKL4"
+    },
+    {
+      "id": "022",
+      "title": "022_नदिया तीर कछारे मेरा गाँव रे",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1qrAueG0jTbg6YSZBUUn56glZZLKVrLNW",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=12mplbwW6JirzoZE16XAWmBG7KifNTWxd",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1LWv3xtRQBpdwgEY37PKCtOoxr6amXVem",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1qo5ZwcU3y0Bk-fSHAJbnichlp8oBIYL8",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=15RHjCwoguvXOGcVBonAN-HuFl-iE4zb9"
+    },
+    {
+      "id": "023",
+      "title": "023_सत्य",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1BAv6h1Df-KCZzQOOduZQ60giHcuRDhJQ",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1wyW3zxfjzxgU1wLnyGvwVCO3ttGgZR_s",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=117opKD2LP5ABsUCN1KsSlxWA06VfDRjT",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=16afgZXHhl0jK8ipolzAlqCXEezgiWZhe",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=17CF_Rfq8m0XvuIws-q-B-Z2jkxjBr9aE"
+    },
+    {
+      "id": "024",
+      "title": "024_विरहिन की रैन (सैर)",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=19-JlBF2vtHqUTcs_1xfRBE72YOtWIcsb",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=11whipf1JmziFhnAKqEB0A2uw95yldh0O",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1cegOnyNFPMGI2MOu8dXIty5xtH12SOqW",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1on7Uy_M6WCbfDnADMGU2MykjIwydOixu",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1IbNSZDRCBVI4Wl8qEFcMbmu42mk6S3qn"
+    },
+    {
+      "id": "025",
+      "title": "025_धीरज न खोइये (सैर)",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1aPVXVMvNj0y5rmynZSw_whHJs8Vs7K6J",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1FraevKUUOLXJmtddvVUEnkOWp9_qP-V7",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1HKx9k11afGwqxShg4IEfvi4-60SqnYeT",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1I4CPcrwV29qIV7da-iFR_tn9O1-BjjVs",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1EsW1F14qyk6npnmpO0tR1OkKWmqBBJW6"
+    },
+    {
+      "id": "026",
+      "title": "026_स्वदेश प्रेम",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1UGPY3r4-XT6tGNliKtlMGiQBz2usgOpV",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1aRCGCOZ2Xgey2Ko9Y5-Bx3mJ8ZLF7Z9K",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1Ctreaw1RICiksfwez1957_2g_UnJW15R",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1gVUO9d91dnx2Qqm13Ua58o3-Ytpp4C4m",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1FJil9YVEbJFkjmN_mipeYRCBPR-49LzK"
+    },
+    {
+      "id": "027",
+      "title": "027_आस का दीपक जलाया है",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=11gGvxUE_btT1rOSPPZWGVruusVkD3FaZ",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1pR1Dvr_T2CiQjQh6801QZVbAO-_42ywS",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1SAfzKquIaubuepMHwksV4joigrofRB_p",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=11aymG5tfbM1yZoOS_5OYeML3WPRITzz_",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1ChLDYQBapTSrsZ7cfEOQKyu3RCRBkw0A"
+    },
+    {
+      "id": "028",
+      "title": "028_पैसा का करिश्मा",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=12kWgxIaUui5etnkuvSvUP-uv35QMx353",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1D-q27kWH7UqUOSBbu1V7QmDypJMmK3xv",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1BFmMTFhAjYNSUIcyFbl2AyIDT6iHXOLJ",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1YSetN4fpxUb3OePQMtIo2XP44NPhGjJZ",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=13ahQ_B47XdYnd7XHi6Hw0fEOKJ_zREwK"
+    },
+    {
+      "id": "029",
+      "title": "029_बिन तुम्हारे",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1T2JQID4lBWVlLCe1LnC93KCFWezVRVLK",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1v3l2FRfQDZNZv8Ibkg0o05wGNS_MLtg2",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1qcPuuV0HiPsSMcepcDRJRsmJ73jZJ_eu",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1EQL87oDjY7kAaaZKeuOHRIY6q5b7nJjK",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1Gicc2EGRUKUus8dWNO1ohMZhwsgMAdYX"
+    },
+    {
+      "id": "030",
+      "title": "030_कर्म के कुछ बीज बोलो",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1vLd17W3PUWf3Ao83tRNoy9C8i6610BLA",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1NANlMs-GAKVeZffwQ0IB5wGpl6xNjbe4",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1j2GbBuSQslwQ836_z07hDIWUJo51W8P0",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1r_fCGvtBSNia-zg-U-FzC_vKgGgmZbRp",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=18Ym0T73rpaA8rHLqTX5MUa61LXYVITOY"
+    },
+    {
+      "id": "031",
+      "title": "031_बोलो कैसा रामराज्य यह-",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1Os2SVq0GneUAfE6iDJIEr6iqJwLNcZXN",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=14Cl6j0fo3hNF1NBGxGX9mW9f9QW2RT3f",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1x7CDZAto_2ihaRBCXG1wldG4ZwLxcNgQ",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1KtcWCr68VdFpXm_0-ES-lDY_GgT5U8R1",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1zrCKaLufHg_2YIWSpsMGWDTB6xM2a0bV"
+    },
+    {
+      "id": "032",
+      "title": "032_नीति की बातें",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1igDt8sZgkj8z8TiZEYWQw6JOGFEy_C2A",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1IrMRKmMDAXFIhz0BSdpSYEkDAcEISFA8",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1KgAgfS4D0XbDmFH9YECyhNLnlJ_SB0EC",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1B2O9ObFxBuqFeLISkibfO1v0hOq0y8Tk",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1dUUE3_omCIS97gkOcU0TLn22FzPic7OL"
+    },
+    {
+      "id": "033",
+      "title": "033_अधिकार सुख",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1qOw7h4vKpIOZJRDR468waKyjfwdIdcrN",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1Vt3CS9lpQlxYXT5zKcVrX71DNouu1m-R",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1gS-JaVfHxhmUjOK7JPHPA6GFPmEpnOMv",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=11XPnoD06rB3TZYzLZDbbqx9hr5do8BoL",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1uPr8KGCA86UnugcuaSKZAkiGDnyIDCNX"
+    },
+    {
+      "id": "034",
+      "title": "034_क्या उसको तुमने देखा है",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1wTXPaVXTeWGamhYoJTgLX-ar8nwtACsI",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1vlWLMyjJGrVszpmkzt3DKPxzsEvrzhyW",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1OV4PpjTSSWgcIGJmZYtCI-TafxSPiWGm",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1rNCsBukSRIpN6QWN7mU2hk95XMytymkq",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1vALCOuj3sYIA6drNKE4F-L27CY5FYTUh"
+    },
+    {
+      "id": "035",
+      "title": "035_बेटी की विदाई",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=12Rp9PnyuTQhGQadJ33cW4hC05FWsBN9h",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1CVonnl_7ODBBpk-40W-PLMtC7a8cXMbD",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1PAsCryK-uHU1gPrB2XA2Z6EVdU2wjZrf",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1ovif--lLpZ4HrLZfPhfr0oKvsaK3-mc6",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1reXuLx76wbrmIj1dqGWeKTzaXLcoNAfX"
+    },
+    {
+      "id": "036",
+      "title": "036_तभी मनावें विजयादशमी",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1T00cHzuO2CmxL6Zs0hi-XRzymfFDcHlZ",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1ZSCsnCaqTGcwIcseyVxUn1oKYRaJTmkx",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1iZS8-Z1VLtOgwn_cJ43yZcYpwP1vL--b",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1KQyzSPggFG5RIL0lAzuMP7o5fvcoDDkQ",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1QzdNz0l-mte0X_6Wt3BGWV4Pl1oyl0tm"
+    },
+    {
+      "id": "037",
+      "title": "037_मुरली मधुर बजाता कौन",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1XnQG9fMxdJgt82OxtFuhQ1ZEL7UEyYyD",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1Uo7s6Oq9yQ2J1Yrr4YVZToXwI1-Cf1fo",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1NAKdIehEe5JbfIxeMj_59x5mx1MSBCM7",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1Yu7mAsg9JyUm7lpjexKgkTTzbL6Z0SHL",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1hVNtuoezJDJ5Hn8dAJdvx0FfOD2H215m"
+    },
+    {
+      "id": "038",
+      "title": "038_मानव रत्न कहाओगे",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1B4mhgDd0l_FhCqc1uB_OhHob2ZvqiiEF",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1NzwDgq7VjNpABywL_kCsp-ROgtjaYcXI",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1drcXwXpyqThwv_LdLE8nTRucsczCrty8",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=18gE-aNsfSddrVUtQzmP-SKRcINUy2Hry",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=19iTHd0p8cucXJ1Mjy7hAvLPksNPAkw7i"
+    },
+    {
+      "id": "039",
+      "title": "039_उलझन",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1o9nfkQVqTpCLn4OC4bCfryxNAUBTvUiL",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1VxXsdxf5fCVvIrLIgKf3TSh7vN3KIKSl",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1ObRB5Zu9Fp60X2x9Q3ki6vWC53CgMF93",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1a2Qup4PVh1iIMWCzc_Y54QKUJ112Ejtd",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1No49wdolFR74O15rmtnlie8rRb93Dqh4"
+    },
+    {
+      "id": "040",
+      "title": "040_बिन वर्षा जीवन है सूना",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1UH71JQ5GEI5bFK1q6AcBU6GuQqgYqANz",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1FSXJxQRyS-KbXqgLFXhOdEWE1NBq5Nd3",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1yPLf1Tw53qYXHEkltARuY1W4eV7aunwL",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=19SW1IrYsHcFDcKAmMUToGIicIxzYRFyt",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1fSW-i9bN_AywheHOG5rMaOJt88liprJM"
+    },
+    {
+      "id": "041",
+      "title": "041_तूफान की विभीषिका",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1yw-t9pD-M1keSW9eYG6Y5Rye4oirPif_",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1ttOuw51HMYmddLCcryLprAfYxWcQwNHY",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=17uLhtgxEEGU-aVP0515DEf4hYtlhox3F",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1OI1wPF2PP3UyNaKjlW5QLL2i-JpS3b3w",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=12RF8fVpOIIg5ok8dq_8gp9CYhn2fVCcE"
+    },
+    {
+      "id": "042",
+      "title": "042_नमक और शक्कर",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1Cy1JDH3rBPIhmIVzNoOMago1CDE8I2Zy",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1_7YAOFbqnCYPrv-BPQTatqSz0f4cbA6V",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=15t3Q--eitSe_zLggyNa6XtWNYH2FunlC",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1XOwmQOdZ_RgBeY8W7ovFWnZYKYdDgWdJ",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1NLLKx7K5TIVZgU9M-1xYsEoo8iADbQIm"
+    },
+    {
+      "id": "043",
+      "title": "043_मृत्यु की विभीषिका",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1-WAKLvWnvdB6n_hdSsnJTahN9cnEWMUj",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1-Xo4g-7qCG8EhjS_cH-cnfTJsq_K2bgI",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=14iGkYP__LyRJw57iqFL1BP1fTM4VmdlV",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1ay-AwVuQqWZ1zpCuzrsuv1ixR2bGG2M6",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1TtJIPFnMkrXY69FKG6paUcYDfbULYp47"
+    },
+    {
+      "id": "044",
+      "title": "044_आतंकी चाँद",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=16SM7I3uwOdfdpWf8xzQwOz9-Zfp2AKmw",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1g_BMITbQiYYDJwH_MptWABMmQ1zYZxYP",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1qqjY0eJawHKHUsiXZo2070cb0dKs_xRp",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1a5K-BBhLIrefKtNUb7piVZxcOzd9rq8h",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1mt5MNgLdgX0c5MVTsqDUcn8QtizrUNNt"
+    },
+    {
+      "id": "045",
+      "title": "045_चाह की आह",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1VdpESq1DjYiMkupCpPlDDDHf0qB3UmHN",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1207-rClckacKaFQeZTOp1_TCkY1PrQtm",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1shoFVVscK9ojikcenHLLB5TbdYgTQ4Uj",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=18u74PNndsumfxQDdA2gobTyEU4OiicVd",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1eJ-S3VcAWPgQYY3Z_rSW5tJVdwBf6WGD"
+    },
+    {
+      "id": "046",
+      "title": "046_आधुनिक साँवरिया की पाती",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1urdRruFsIegxiaWKKFNkTjw_LYK4fT3z",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1vCNZGdNKkMpvokAeKIQVaP5O_TGZIzu8",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1dFUpqJ2QOZ7R05Fpyo_U1cTzUxfWIJOx",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1PwgDqaPZwbcVLjXyx_muBCVIZVBZf1lU",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1vcMeho20HN6ifIJk6dY6vTBSyG2LO_jt"
+    },
+    {
+      "id": "047",
+      "title": "047_दिल के छाले",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=16eL4D3YrUVhy5TG4gIuADIw5RcqRT5dz",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1ipgEP_a0NiSYrUPyxcGDYwOZ0gUhLir3",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1yR7hHlOvrh-RTTe5rVOpkP38CoGFEiMD",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1peKFB821HjeAbGlN7rY5ZIJuZfWDql5C",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1DEsxGACBZVtYl9Gjd1KhVoGRIIZVcKW8"
+    },
+    {
+      "id": "048",
+      "title": "048_मौन आमंत्रण",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1T2Z_ibcPPl17tgxHx95DznkPUsEYMznO",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=19jHI6TsLqEfBQFDxl5Yoc_Hf4iKWQccs",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=10WPaAI4UOwdCNgPL3-ibAVvcLsslBqGE",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1jTw026EZVnoTzqRq1QhTjQD4MvI_xjtS",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1TY4lbGD02-D_ZElVKfDkV3KDFtCHQrs7"
+    },
+    {
+      "id": "049",
+      "title": "049_इन्सान या हैवान",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1PeULNcXJCgOdfGbMX1g_n07ID1sbHDoC",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1VyoGBjpjOdvWxRcgUT-kl_Y326uEmvnX",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1TD8VB3y7125k-EgIIZQkKb3sH_I_m43D",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1eFrFCtnSCR44zU4dhLEqRt9E-GkKFIyH",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1HeruEx31Ie4u3eKsCllJguWICpJ0LyNN"
+    },
+    {
+      "id": "050",
+      "title": "050_आपात काल",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1O9WnuBrsUEpzZgfUVAwO41prRb27Xokm",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1IVzV5jCJPrH3Ly4t-bQXgHrxO3kSJyb6",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1_BBC3Az3EkPyMdXvM_U52koMUok-K3-C",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1rN5OKieiy_lAz5GFVIm4nyEfRbvWoY7p",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1Ob4HQsM8EEuxrS-zsDpWBi-kzeOejAV4"
+    },
+    {
+      "id": "051",
+      "title": "051_मेरे मसीहा",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1WFUy2EjRCq1TsIddUxMBuIP-Io5CogcM",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1cPLGwqgTSvigaIotnqEzu72sUvLFWpKy",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1tsIk07Q9wIcmV036ZWcp5EtUJyknmYep",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1uYvOnAr2Y_QKsrXVRxaVHZRkaTl-1IHx",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1tQJbKBtUaz4k9Wd-kNm2wJfI5bzFeCRT"
+    },
+    {
+      "id": "052",
+      "title": "052_विदाई",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1QmVPStb4_EZsqzNgUXZ2y_ISIK9tlGGU",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1YIMK4bg8g38Lrbr7dy_7rGKHvGChLBUQ",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1GegogcH3NYkqLi4nCSDTuXVW2bFjZyQd",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1nrasec_IBSYArm0rxrV9DKhm-3qJcAln",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1GLbSWxiZ_5T__hfpSu8KAU6gmJ8XE49N"
+    },
+    {
+      "id": "053",
+      "title": "053_युवा शक्ति का आहवान्",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1ZkQQo2Aouss2vMRcJY8-0ZBir_haXhT5",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1KIvx74YfRDpl2yfGMUdIWhGp6ubf2uX0",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=12a-YimBxZfjEWqc_gVBKzHeYLJk-myCU",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=1mSh46CChay2EVAIz1NqTAG7cAYaHVQbY",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1VxAbGYXHDJNO5b3oiHLcf9c0rZ75bSTT"
+    },
+    {
+      "id": "054",
+      "title": "054_भूल जाना नहीं",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1dF4Z39iuRK2yqxTXs9fnKa4jmOtiqD9f",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1u6I54kK-LsceR5dh8Lp59vWOTK925VJ-",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1dSOYLdoSsiXBn3qr3TBTzcL8qkl4Ypyv",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=19F5I2jImoqgec9qPaE2i9u_2UzmwbE0-",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1iEbwN0gobuzjJy3ZrtjETOxSKlcJT9lV"
+    },
+    {
+      "id": "055",
+      "title": "055_जीवन चक्र",
+      "type": "poem",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=19vVcV8tiYHo0wFELQV08AL2Nyx5D6AXk",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1tryqgb0S9-JmxHpAt1JpvaIDE-YfGu9M",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=1rbJchlMwlyTb48KAJFGaXyyHPeXGJl8P",
+      "explainer_url_male": "https://drive.google.com/uc?export=download&id=16ytBD0ibBKxbUj5sr3EJ1xblDGBMbAP-",
+      "explainer_url_female": "https://drive.google.com/uc?export=download&id=1LHIMbzJJqmX68lRzUyQdy6J6nmn9PM4U"
+    },
+    {
+      "id": "056",
+      "title": "056_रचनाकार परिचय",
+      "type": "chapter",
+      "audio_url_male": "https://drive.google.com/uc?export=download&id=1eXlNcJLw1NuWC82o2fPmsH96gKIH_-ds",
+      "audio_url_female": "https://drive.google.com/uc?export=download&id=1xM7nGD88V27Ig2ptImYWYFgOBleZTAlm",
+      "illustration_url": "https://drive.google.com/uc?export=download&id=16G7nGsVW-TqHRgR4UTC_YJbAJYJfLzP7"
+    }
+  ]
+}
